@@ -16,7 +16,7 @@
             //response.getWriter().close();
             String nome = request.getParameter("nome");
             request.setAttribute("nome", nome);
-            request.getRequestDispatcher("home.jsp").forward(request, response);
+            request.getRequestDispatcher("WEB-INF/home.jsp").forward(request, response);
 
         
     }
