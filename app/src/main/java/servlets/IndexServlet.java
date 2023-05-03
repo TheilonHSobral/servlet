@@ -15,7 +15,7 @@
             //response.getWriter().println("Oi Servlet!!!");
             //response.getWriter().close();
             String nome = request.getParameter("nome");
-            request.setAttribute("nome", nome)
+            request.setAttribute("nome", nome);
             request.getRequestDispatcher("home.jsp").forward(request, response);
 
         
